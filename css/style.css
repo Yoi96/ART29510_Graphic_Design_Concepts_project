@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap');
+
+body
+{
+	font-size: 20px;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color:#7EA0B3;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header
+{
+	grid-area: header;
+}
+
+.header_intro
+{
+	grid-area: header_intro;
+}
+
+
+.hobbies
+{
+	grid-area: hobbies;
+}
+
+.hobb_img
+{
+	grid-area: hobb_img;
+}
+
+.places
+{
+	grid-area: places;
+}
+
+.online_places
+{
+	grid-area: online_places;
+}
+
+.motto
+{
+	grid-area: motto;
+}
+
+.food
+{
+	grid-area: food;
+}
+
+.food_img
+{
+	grid-area: food_img;
+}
+
+
+.food_img2
+{
+	grid-area: food_img2;
+}
+
+.text
+{
+	grid-area: text;
+}
+
+.news
+{
+	grid-area: news;
+}
+
+
+a
+{
+	color:#7EA0B3; 
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: orange;
+}
+
+.wrap
+{
+	max-width: 1024px;
+	height: auto;
+	padding: 1em;
+	margin: 0px auto;
+	display: grid;
+	gap: 2em;
+	grid-auto-columns: auto auto;
+	grid-template-areas: 
+	"header header"
+	"header_intro hobb_img"
+	"hobbies hobb_img"
+	"places online_places"
+	"motto motto"
+	"food food"
+	"food_img food_img2"
+	"text   news";
+
+}
+
+.header
+{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	line-height: 3em;
+	font-size: 3em;
+	background: url("../images/pngegg.png") no-repeat;
+	background-size:contain;
+	background-position: center;
+	color:#1C3C61;
+	font-weight: bolder;
+	margin-bottom: 1em;
+
+
+}
+
+.header_intro
+{
+	width: 100%;
+	height: auto;
+}
+
+.hobbies
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+}
+
+h2, summary
+{
+	border-bottom: 0.1em dotted #8DAEC1;
+	color:#5EA5DB;
+	font-family: 'DM Serif Display', serif;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	padding-bottom: 0.2em;
+
+}
+
+.hobb_img
+{
+	height:auto;
+	width:100%;
+	background: url("../images/hobb_img.jpg") no-repeat;
+	background-position: center;
+	background-size:cover;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 5%;
+ 
+}
+
+
+
+
+
+.fig1
+{
+	height:auto;
+	width:100%;
+	background: url("../images/Jook-sing noodles.jpg") no-repeat;
+	background-position: center;
+	background-size:cover;
+	margin: 0px;
+	padding: 0px;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+.fig2
+{
+	height:auto;
+	width:100%;
+	background: url("../images/wotton.jpg") no-repeat;
+	background-position: center;
+	background-size:cover;
+	margin: 0px;
+	padding: 0px;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+.footer
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	line-height: 3em;
+	color: white;
+	background: #95BEF0;
+	margin-top: 3em;
+	font-size: 0.7em;
+	bottom: 0px;
+}
